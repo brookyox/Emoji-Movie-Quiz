@@ -1,0 +1,81 @@
+body {
+    background-color: #110D08;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(image/final.png) ;
+    background-size: cover;
+}
+
+#box {
+    width: 1111px;
+    height: auto;
+    background-color: rgb(255, 254, 254);
+    margin-top: 475px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#qst, #feedback, #correctAnswer,#welcom, #click {
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+    font-family: "Lobster", sans-serif;
+}
+
+#emoji {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#blank {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#guess {
+    font-size: 25px;
+    padding: 10px;
+    width: 60%;
+}
+
+#button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#start {
+    font-size: 35px;
+    padding-left : 30px;
+    padding-right : 30px;
+    background-color: #ffffff;
+    border: solid;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#retrybutton {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: solid;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    width: fit-content;
+    margin: 20px auto;
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
