@@ -1,19 +1,27 @@
 body {
-    background-color: #110D08;
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url(image/final.png) ;
+    background-image: url(image/final.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
 #box {
-    width: 1111px;
-    height: auto;
-    background-color: rgb(255, 254, 254);
-    margin-top: 475px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
+    max-width: 900px;
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
+    margin-top:205px;
 }
 
 #qst, #feedback, #correctAnswer,#welcom, #click {
