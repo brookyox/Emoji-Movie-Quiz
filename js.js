@@ -87,7 +87,7 @@ function endGame() {
 }
 
 
-// does not od anything until a character is typed
+// does not do anything until a character is typed
 gameForm.addEventListener('submit', function (e) {
     e.preventDefault();
     const guess = guessInput.value;
