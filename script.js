@@ -8,7 +8,7 @@ const movies = [
     { name: "Up", emojis: ["🎈 🏠"] },
     { name: "Batman", emojis: ["🦇 🃏"] },
     { name: "Zootopia", emojis: ["🐰 👮‍♂️"] },
-    { name: "Star Wars", emojis: ["⚔️ 🚀 👽"] },
+    { name: "Star Wars", emojis: [" ✨ ⚔️ 🚀 "] },
     { name: "Inside Out", emojis: ["🧠 😡"] }
 ];
 
